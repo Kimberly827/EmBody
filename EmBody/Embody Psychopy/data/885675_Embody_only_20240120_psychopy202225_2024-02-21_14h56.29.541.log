@@ -1,0 +1,270 @@
+5.3733 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+7.3290 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D0D0EC0C40>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D0D0EC0BE0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D0D0EC0A30>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001D0D14574C0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.3290 	EXP 	window1: mouseVisible = True
+7.3291 	EXP 	window1: backgroundImage = ''
+7.3291 	EXP 	window1: backgroundFit = 'none'
+7.3307 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.3307 	EXP 	window1: recordFrameIntervals = False
+7.3982 	EXP 	window1: recordFrameIntervals = True
+7.4454 	WARNING 	t of last frame was 12.94ms (=1/77)
+7.5150 	EXP 	Screen (0) actual frame rate measured at 143.83Hz
+7.5151 	EXP 	window1: recordFrameIntervals = False
+7.5152 	EXP 	window1: mouseVisible = False
+9.5853 	EXP 	Embody_only_20240120_psychopy202225: status = STARTED
+9.5856 	EXP 	window1: mouseVisible = True
+9.7271 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='Intro1.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+9.7272 	EXP 	window1: mouseVisible = True
+9.8575 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='Intro2.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+9.8576 	EXP 	window1: mouseVisible = True
+9.9950 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='Intro3.png', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+9.9951 	EXP 	window1: mouseVisible = True
+10.0216 	EXP 	Created body_image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='base.png', interpolate=True, mask=None, maskParams=None, name='body_image_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+10.0217 	EXP 	window1: mouseVisible = True
+10.0219 	EXP 	window1: mouseVisible = True
+10.0675 	EXP 	Created lt_text_body_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='lt_text_body_3', opacity=1.0, ori=0, pos=array([-0.33, -0.45]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.0677 	EXP 	window1: mouseVisible = True
+10.0722 	EXP 	Created rt_text_body_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='rt_text_body_3', opacity=1.0, ori=0, pos=array([ 0.33, -0.45]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.0723 	EXP 	window1: mouseVisible = True
+10.0806 	EXP 	Created body_explanation_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='body_explanation_3', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.0807 	EXP 	window1: mouseVisible = True
+10.0880 	EXP 	Created body_progress_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='body_progress_3', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text="Press 'Enter' to go to the next page", units='height', win=Window(...), wrapWidth=1)
+10.0881 	EXP 	window1: mouseVisible = True
+10.0889 	EXP 	Created reset_rect_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-8.0, draggable=False, fillColor=array([1, 1, 0]), fillColorSpace='rgb', fillRGB=array([1, 1, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=5, name='reset_rect_3', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), size=array([0.1 , 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+10.0889 	EXP 	window1: mouseVisible = True
+10.0916 	EXP 	Created reset_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='reset_text_3', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='RESET', units='height', win=Window(...), wrapWidth=1)
+10.0917 	EXP 	window1: mouseVisible = True
+10.0927 	EXP 	Created feeling_words = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feeling_words', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.0226 	EXP 	image: autoDraw = True
+2.1005 	DATA 	Keypress: right
+2.1058 	EXP 	image: autoDraw = False
+2.1058 	EXP 	image_2: autoDraw = True
+3.4409 	DATA 	Keypress: right
+3.4454 	EXP 	image_2: autoDraw = False
+3.4454 	EXP 	image_3: autoDraw = True
+4.9510 	EXP 	Imported feel_word_list.xlsx as conditions, 10 conditions, 1 params
+4.9514 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+4.9515 	EXP 	New trial (rep=0, index=0): {'feel_word': 'Fearful'}
+4.9562 	DATA 	Keypress: right
+4.9634 	EXP 	image_3: autoDraw = False
+4.9634 	EXP 	feeling_words: height = 0.1
+4.9634 	EXP 	feeling_words: height = 0.1
+4.9634 	EXP 	feeling_words: height = 0.1
+4.9634 	EXP 	feeling_words: text = 'Fearful'
+4.9634 	EXP 	body_image_3: autoDraw = True
+4.9634 	EXP 	lt_text_body_3: autoDraw = True
+4.9634 	EXP 	rt_text_body_3: autoDraw = True
+4.9634 	EXP 	body_explanation_3: autoDraw = True
+4.9634 	EXP 	body_progress_3: autoDraw = True
+4.9634 	EXP 	reset_rect_3: autoDraw = True
+4.9634 	EXP 	reset_text_3: autoDraw = True
+4.9634 	EXP 	feeling_words: autoDraw = True
+5.7003 	DATA 	Keypress: right
+6.3281 	DATA 	Keypress: return
+6.3298 	EXP 	New trial (rep=0, index=1): {'feel_word': 'Anxious'}
+6.3469 	EXP 	body_image_3: autoDraw = False
+6.3469 	EXP 	lt_text_body_3: autoDraw = False
+6.3469 	EXP 	rt_text_body_3: autoDraw = False
+6.3469 	EXP 	body_explanation_3: autoDraw = False
+6.3469 	EXP 	body_progress_3: autoDraw = False
+6.3469 	EXP 	reset_rect_3: autoDraw = False
+6.3469 	EXP 	reset_text_3: autoDraw = False
+6.3469 	EXP 	feeling_words: autoDraw = False
+6.3469 	EXP 	feeling_words: height = 0.1
+6.3469 	EXP 	feeling_words: height = 0.1
+6.3469 	EXP 	feeling_words: height = 0.1
+6.3469 	EXP 	feeling_words: text = 'Anxious'
+6.3469 	EXP 	body_image_3: autoDraw = True
+6.3469 	EXP 	lt_text_body_3: autoDraw = True
+6.3469 	EXP 	rt_text_body_3: autoDraw = True
+6.3469 	EXP 	body_explanation_3: autoDraw = True
+6.3469 	EXP 	body_progress_3: autoDraw = True
+6.3469 	EXP 	reset_rect_3: autoDraw = True
+6.3469 	EXP 	reset_text_3: autoDraw = True
+6.3469 	EXP 	feeling_words: autoDraw = True
+6.5576 	DATA 	Keypress: return
+6.5590 	EXP 	New trial (rep=0, index=2): {'feel_word': 'Tired'}
+6.5676 	EXP 	body_image_3: autoDraw = False
+6.5676 	EXP 	lt_text_body_3: autoDraw = False
+6.5676 	EXP 	rt_text_body_3: autoDraw = False
+6.5676 	EXP 	body_explanation_3: autoDraw = False
+6.5676 	EXP 	body_progress_3: autoDraw = False
+6.5676 	EXP 	reset_rect_3: autoDraw = False
+6.5676 	EXP 	reset_text_3: autoDraw = False
+6.5676 	EXP 	feeling_words: autoDraw = False
+6.5676 	EXP 	feeling_words: height = 0.1
+6.5676 	EXP 	feeling_words: height = 0.1
+6.5676 	EXP 	feeling_words: height = 0.1
+6.5676 	EXP 	feeling_words: text = 'Tired'
+6.5676 	EXP 	body_image_3: autoDraw = True
+6.5676 	EXP 	lt_text_body_3: autoDraw = True
+6.5676 	EXP 	rt_text_body_3: autoDraw = True
+6.5676 	EXP 	body_explanation_3: autoDraw = True
+6.5676 	EXP 	body_progress_3: autoDraw = True
+6.5676 	EXP 	reset_rect_3: autoDraw = True
+6.5676 	EXP 	reset_text_3: autoDraw = True
+6.5676 	EXP 	feeling_words: autoDraw = True
+6.7430 	DATA 	Keypress: return
+6.7443 	EXP 	New trial (rep=0, index=3): {'feel_word': 'Agitated'}
+6.7530 	EXP 	body_image_3: autoDraw = False
+6.7530 	EXP 	lt_text_body_3: autoDraw = False
+6.7530 	EXP 	rt_text_body_3: autoDraw = False
+6.7530 	EXP 	body_explanation_3: autoDraw = False
+6.7530 	EXP 	body_progress_3: autoDraw = False
+6.7530 	EXP 	reset_rect_3: autoDraw = False
+6.7530 	EXP 	reset_text_3: autoDraw = False
+6.7530 	EXP 	feeling_words: autoDraw = False
+6.7530 	EXP 	feeling_words: height = 0.1
+6.7530 	EXP 	feeling_words: height = 0.1
+6.7530 	EXP 	feeling_words: height = 0.1
+6.7530 	EXP 	feeling_words: text = 'Agitated'
+6.7530 	EXP 	body_image_3: autoDraw = True
+6.7530 	EXP 	lt_text_body_3: autoDraw = True
+6.7530 	EXP 	rt_text_body_3: autoDraw = True
+6.7530 	EXP 	body_explanation_3: autoDraw = True
+6.7530 	EXP 	body_progress_3: autoDraw = True
+6.7530 	EXP 	reset_rect_3: autoDraw = True
+6.7530 	EXP 	reset_text_3: autoDraw = True
+6.7530 	EXP 	feeling_words: autoDraw = True
+6.9075 	DATA 	Keypress: return
+6.9087 	EXP 	New trial (rep=0, index=4): {'feel_word': 'Sad'}
+6.9171 	EXP 	body_image_3: autoDraw = False
+6.9171 	EXP 	lt_text_body_3: autoDraw = False
+6.9171 	EXP 	rt_text_body_3: autoDraw = False
+6.9171 	EXP 	body_explanation_3: autoDraw = False
+6.9171 	EXP 	body_progress_3: autoDraw = False
+6.9171 	EXP 	reset_rect_3: autoDraw = False
+6.9171 	EXP 	reset_text_3: autoDraw = False
+6.9171 	EXP 	feeling_words: autoDraw = False
+6.9171 	EXP 	feeling_words: height = 0.1
+6.9171 	EXP 	feeling_words: height = 0.1
+6.9171 	EXP 	feeling_words: height = 0.1
+6.9171 	EXP 	feeling_words: text = 'Sad'
+6.9171 	EXP 	body_image_3: autoDraw = True
+6.9171 	EXP 	lt_text_body_3: autoDraw = True
+6.9171 	EXP 	rt_text_body_3: autoDraw = True
+6.9171 	EXP 	body_explanation_3: autoDraw = True
+6.9171 	EXP 	body_progress_3: autoDraw = True
+6.9171 	EXP 	reset_rect_3: autoDraw = True
+6.9171 	EXP 	reset_text_3: autoDraw = True
+6.9171 	EXP 	feeling_words: autoDraw = True
+7.0646 	DATA 	Keypress: return
+7.0659 	EXP 	New trial (rep=0, index=5): {'feel_word': 'Angry'}
+7.0745 	EXP 	body_image_3: autoDraw = False
+7.0745 	EXP 	lt_text_body_3: autoDraw = False
+7.0745 	EXP 	rt_text_body_3: autoDraw = False
+7.0745 	EXP 	body_explanation_3: autoDraw = False
+7.0745 	EXP 	body_progress_3: autoDraw = False
+7.0745 	EXP 	reset_rect_3: autoDraw = False
+7.0745 	EXP 	reset_text_3: autoDraw = False
+7.0745 	EXP 	feeling_words: autoDraw = False
+7.0745 	EXP 	feeling_words: height = 0.1
+7.0745 	EXP 	feeling_words: height = 0.1
+7.0745 	EXP 	feeling_words: height = 0.1
+7.0745 	EXP 	feeling_words: text = 'Angry'
+7.0745 	EXP 	body_image_3: autoDraw = True
+7.0745 	EXP 	lt_text_body_3: autoDraw = True
+7.0745 	EXP 	rt_text_body_3: autoDraw = True
+7.0745 	EXP 	body_explanation_3: autoDraw = True
+7.0745 	EXP 	body_progress_3: autoDraw = True
+7.0745 	EXP 	reset_rect_3: autoDraw = True
+7.0745 	EXP 	reset_text_3: autoDraw = True
+7.0745 	EXP 	feeling_words: autoDraw = True
+7.2222 	DATA 	Keypress: return
+7.2235 	EXP 	New trial (rep=0, index=6): {'feel_word': 'Happy'}
+7.2328 	EXP 	body_image_3: autoDraw = False
+7.2328 	EXP 	lt_text_body_3: autoDraw = False
+7.2328 	EXP 	rt_text_body_3: autoDraw = False
+7.2328 	EXP 	body_explanation_3: autoDraw = False
+7.2328 	EXP 	body_progress_3: autoDraw = False
+7.2328 	EXP 	reset_rect_3: autoDraw = False
+7.2328 	EXP 	reset_text_3: autoDraw = False
+7.2328 	EXP 	feeling_words: autoDraw = False
+7.2328 	EXP 	feeling_words: height = 0.1
+7.2328 	EXP 	feeling_words: height = 0.1
+7.2328 	EXP 	feeling_words: height = 0.1
+7.2328 	EXP 	feeling_words: text = 'Happy'
+7.2328 	EXP 	body_image_3: autoDraw = True
+7.2328 	EXP 	lt_text_body_3: autoDraw = True
+7.2328 	EXP 	rt_text_body_3: autoDraw = True
+7.2328 	EXP 	body_explanation_3: autoDraw = True
+7.2328 	EXP 	body_progress_3: autoDraw = True
+7.2328 	EXP 	reset_rect_3: autoDraw = True
+7.2328 	EXP 	reset_text_3: autoDraw = True
+7.2328 	EXP 	feeling_words: autoDraw = True
+7.3833 	DATA 	Keypress: return
+7.3884 	EXP 	New trial (rep=0, index=7): {'feel_word': 'Calm'}
+7.3973 	EXP 	body_image_3: autoDraw = False
+7.3973 	EXP 	lt_text_body_3: autoDraw = False
+7.3973 	EXP 	rt_text_body_3: autoDraw = False
+7.3973 	EXP 	body_explanation_3: autoDraw = False
+7.3973 	EXP 	body_progress_3: autoDraw = False
+7.3973 	EXP 	reset_rect_3: autoDraw = False
+7.3973 	EXP 	reset_text_3: autoDraw = False
+7.3973 	EXP 	feeling_words: autoDraw = False
+7.3973 	EXP 	feeling_words: height = 0.1
+7.3973 	EXP 	feeling_words: height = 0.1
+7.3973 	EXP 	feeling_words: height = 0.1
+7.3973 	EXP 	feeling_words: text = 'Calm'
+7.3973 	EXP 	body_image_3: autoDraw = True
+7.3973 	EXP 	lt_text_body_3: autoDraw = True
+7.3973 	EXP 	rt_text_body_3: autoDraw = True
+7.3973 	EXP 	body_explanation_3: autoDraw = True
+7.3973 	EXP 	body_progress_3: autoDraw = True
+7.3973 	EXP 	reset_rect_3: autoDraw = True
+7.3973 	EXP 	reset_text_3: autoDraw = True
+7.3973 	EXP 	feeling_words: autoDraw = True
+7.6357 	DATA 	Keypress: return
+7.6371 	EXP 	New trial (rep=0, index=8): {'feel_word': 'Nervous'}
+7.6465 	EXP 	body_image_3: autoDraw = False
+7.6465 	EXP 	lt_text_body_3: autoDraw = False
+7.6465 	EXP 	rt_text_body_3: autoDraw = False
+7.6465 	EXP 	body_explanation_3: autoDraw = False
+7.6465 	EXP 	body_progress_3: autoDraw = False
+7.6465 	EXP 	reset_rect_3: autoDraw = False
+7.6465 	EXP 	reset_text_3: autoDraw = False
+7.6465 	EXP 	feeling_words: autoDraw = False
+7.6465 	EXP 	feeling_words: height = 0.1
+7.6465 	EXP 	feeling_words: height = 0.1
+7.6465 	EXP 	feeling_words: height = 0.1
+7.6465 	EXP 	feeling_words: text = 'Nervous'
+7.6465 	EXP 	body_image_3: autoDraw = True
+7.6465 	EXP 	lt_text_body_3: autoDraw = True
+7.6465 	EXP 	rt_text_body_3: autoDraw = True
+7.6465 	EXP 	body_explanation_3: autoDraw = True
+7.6465 	EXP 	body_progress_3: autoDraw = True
+7.6465 	EXP 	reset_rect_3: autoDraw = True
+7.6465 	EXP 	reset_text_3: autoDraw = True
+7.6465 	EXP 	feeling_words: autoDraw = True
+7.9205 	DATA 	Keypress: return
+7.9217 	EXP 	New trial (rep=0, index=9): {'feel_word': 'Safe'}
+7.9294 	EXP 	body_image_3: autoDraw = False
+7.9294 	EXP 	lt_text_body_3: autoDraw = False
+7.9294 	EXP 	rt_text_body_3: autoDraw = False
+7.9294 	EXP 	body_explanation_3: autoDraw = False
+7.9294 	EXP 	body_progress_3: autoDraw = False
+7.9294 	EXP 	reset_rect_3: autoDraw = False
+7.9294 	EXP 	reset_text_3: autoDraw = False
+7.9294 	EXP 	feeling_words: autoDraw = False
+7.9294 	EXP 	feeling_words: height = 0.1
+7.9294 	EXP 	feeling_words: height = 0.1
+7.9294 	EXP 	feeling_words: height = 0.1
+7.9294 	EXP 	feeling_words: text = 'Safe'
+7.9294 	EXP 	body_image_3: autoDraw = True
+7.9294 	EXP 	lt_text_body_3: autoDraw = True
+7.9294 	EXP 	rt_text_body_3: autoDraw = True
+7.9294 	EXP 	body_explanation_3: autoDraw = True
+7.9294 	EXP 	body_progress_3: autoDraw = True
+7.9294 	EXP 	reset_rect_3: autoDraw = True
+7.9294 	EXP 	reset_text_3: autoDraw = True
+7.9294 	EXP 	feeling_words: autoDraw = True
+8.3325 	DATA 	Keypress: return
+8.3430 	EXP 	body_image_3: autoDraw = False
+8.3430 	EXP 	lt_text_body_3: autoDraw = False
+8.3430 	EXP 	rt_text_body_3: autoDraw = False
+8.3430 	EXP 	body_explanation_3: autoDraw = False
+8.3430 	EXP 	body_progress_3: autoDraw = False
+8.3430 	EXP 	reset_rect_3: autoDraw = False
+8.3430 	EXP 	reset_text_3: autoDraw = False
+8.3430 	EXP 	feeling_words: autoDraw = False
+8.3430 	EXP 	Embody_only_20240120_psychopy202225: status = STOPPED
+9.8516 	EXP 	window1: mouseVisible = True
