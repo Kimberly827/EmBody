@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2023.2.3">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="Lee test" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="scene_camera.json" valType="file" updates="None" name="plCompanionCameraCalibration"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="Intro1">
+      <RoutineSettingsComponent name="Intro1" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Intro1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="Intro_1" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Images/Intro_1.jpg" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="Intro_1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'y','n','left','right','space', 'return'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Intro2">
+      <RoutineSettingsComponent name="Intro2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Intro2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="Intro_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Images/Intro_2.jpg" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="Intro_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'y','n','left','right','space', 'return'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Intro3">
+      <RoutineSettingsComponent name="Intro3" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Intro3" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="Intro_3" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Images/Intro_3.jpg" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="Intro_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_3" plugin="None">
+        <Param val="'y','n','left','right','space', 'enter'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Scenarios">
+      <RoutineSettingsComponent name="Scenarios" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Scenarios" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Scenario" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Scenario" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$ScenarioText" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4" plugin="None">
+        <Param val="'y','n','left','right', 'return'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_4" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Mapping">
+      <RoutineSettingsComponent name="Mapping" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Mapping" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Images/base.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="target" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="from time import strftime&amp;#10;from psychopy import visual, event, core" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="max_clicks = 500  # Adjust this number based on your experiment's needs&amp;#10;clickList = []&amp;#10;shapes = [visual.ShapeStim(win, vertices='circle', size=(0.01, 0.01), fillColor='white', autoDraw=False) for _ in range(max_clicks)]&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="clicklist = [];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="# Checks for mouse presses and colors shapes&amp;#10;buttons = mouse.getPressed()&amp;#10;x, y = mouse.getPos()&amp;#10;&amp;#10;if buttons[0]:  # Left-click&amp;#10;    for shape in shapes:&amp;#10;        if not shape.autoDraw:&amp;#10;            shape.pos = (x, y)&amp;#10;            shape.fillColor = 'red'  # Set the color for left-click&amp;#10;            shape.autoDraw = True&amp;#10;            break  # Exit the loop after updating one shape&amp;#10;elif buttons[2]:  # Right-click&amp;#10;    for shape in shapes:&amp;#10;        if not shape.autoDraw:&amp;#10;            shape.pos = (x, y)&amp;#10;            shape.fillColor = 'blue'  # Set the color for right-click&amp;#10;            shape.autoDraw = True&amp;#10;            break&amp;#10;&amp;#10;# Listen for a specific key press to clear colored shapes&amp;#10;keys = event.getKeys(keyList=['space', 'return'])&amp;#10;&amp;#10;if 'return' in keys:&amp;#10;    thisExp.addData('screenshotTime', globalClock.getTime())&amp;#10;    win.getMovieFrame()&amp;#10;    filename = &quot;screenshot_&quot; + strftime(&quot;%Y%m%d_%H%M%S&quot;) + &quot;.png&quot;&amp;#10;    win.saveMovieFrames(filename)&amp;#10;&amp;#10;if 'space' in keys:&amp;#10;    for shape in shapes:&amp;#10;        shape.fillColor = None&amp;#10;        shape.autoDraw = False&amp;#10;    win.flip()&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if (mouse.isPressedIn(target)) {&amp;#10;    clicklist.push(mouse.getPos());&amp;#10;}&amp;#10;for (var click, _pj_c = 0, _pj_a = clicklist, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    click = _pj_a[_pj_c];&amp;#10;    new visual.ShapeStim({&quot;win&quot;: psychoJS.window, &quot;size&quot;: [0.01, 0.01], &quot;vertices&quot;: &quot;circle&quot;, &quot;ori&quot;: 0.0, &quot;pos&quot;: click, &quot;anchor&quot;: &quot;center&quot;, &quot;lineWidth&quot;: 1.0, &quot;colorSpace&quot;: &quot;rgb&quot;, &quot;lineColor&quot;: &quot;red&quot;, &quot;fillColor&quot;: &quot;red&quot;, &quot;opacity&quot;: null, &quot;depth&quot;: 0.0, &quot;interpolate&quot;: true, &quot;autoDraw&quot;: true});&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="if 'return' in keys:  # Replace 'return' with the actual key used to end coloring&amp;#10;    thisExp.addData('screenshotTime', globalClock.getTime())  # Optional: Record the time of the screenshot&amp;#10;    win.getMovieFrame()  # Capture the screen&amp;#10;    filename = &quot;screenshot_&quot; + strftime(&quot;%Y%m%d_%H%M%S&quot;) + &quot;.png&quot;&amp;#10;    win.saveMovieFrames(filename)  # Save the screenshot&amp;#10;if keys:&amp;#10;    # If 'space' is pressed, clear all shapes by setting fillColor to None&amp;#10;    for shape in shapes:&amp;#10;        shape.fillColor = None&amp;#10;        shape.autoDraw = False  # Stop drawing the shape&amp;#10;    win.flip()" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <MouseComponent name="mouse" plugin="None">
+        <Param val="target" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="never" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <KeyboardComponent name="key_resp_body" plugin="None">
+        <Param val="'return'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_body" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="feeling_words" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="feeling_words" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$feel_word" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Intro1"/>
+    <Routine name="Intro2"/>
+    <Routine name="Intro3"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'feel_word': 'Startled by library footsteps…', 'ScenarioText': 'You are studying late in a nearly empty library. Suddenly, you hear footsteps that seem to stop right behind your chair. The eerie silence of the library, combined with the unexpected sound, fills you with a deep sense of fear.'}, {'feel_word': 'Wrongly accused by teacher…', 'ScenarioText': &quot;In your final year, a misunderstanding arises when a teacher, wrongly accuses you of an action you didn't commit. Despite it being a clear mix-up, the situation escalates, leaving you unsure of how to clear your name without provoking further aggression. This concern for potential confrontation and the need to defend your integrity weigh heavily, impacting your sense of security and trust within the academic environment.&quot;}, {'feel_word': 'Doubting before major deadline…', 'ScenarioText': 'You have an upcoming deadline for a major assignment. You start to doubt your ability to perform. The fear of receiving a poor grade becomes overwhelming, impacting your confidence and causing you to question your academic competence.'}, {'feel_word': 'Comforting safety during campus alarm.', 'ScenarioText': &quot;In a familiar classroom setting, you're seated next to a close friend for an on-campus tutorial. As the session progresses, the university conducts a scheduled safety alarm test, a fact you were briefed on beforehand. The sound of the alarm, rather than causing distress, instils in you a comforting sense of safety. This feeling is amplified by the familiarity of your surroundings and the presence of your friend.&quot;}, {'feel_word': 'Friend saves seat…', 'ScenarioText': 'You attend an in-person lecture on campus, and you are running five minutes late. As you enter the room, you see that your friend has saved you a seat next to them. You begin to reflect and realise you’ve built a strong social network, and you feel secure in your friendships.'}, {'feel_word': 'Belonging in accepting club environment…', 'ScenarioText': &quot;You join an on-campus club that aligns with your personal values and interests, attending your first meeting, you're warmly welcomed by its members. As discussions unfold, you find yourself openly sharing your thoughts and experiences without fear of judgment. This environment, where you're accepted for who you are, fosters a deep sense of safety and belonging.&quot;}, {'feel_word': 'Confidence from coursework mastery…', 'ScenarioText': &quot;After several weeks into the semester, you've developed a strong grasp of the coursework for one of your more challenging classes. You've identified the key concepts and techniques that are crucial for success. This understanding is reinforced by positive feedback on your assignments. As a result, you feel a sense of safety and a robust sense of preparedness and confidence in your ability to excel in the class. &quot;}, {'feel_word': 'Poorly lit campus…', 'ScenarioText': 'You are walking through an unfamiliar part of campus after a late networking event. Your path home is poorly lit, and your phone battery is critically low, leaving you unable to use it as a flashlight or to call for help. The unfamiliarity and isolation trigger a mounting sense of anxiety about reaching your destination safely.'}, {'feel_word': 'Lost on campus…', 'ScenarioText': 'You are navigating through various on campus lectures and classes and feel lost. You begin to feel anxious about whether you fit in anywhere. This anxiety stems from a deeper concern about not having a clear sense of self or belonging, leading to feelings of being lost within the university community.'}, {'feel_word': 'Waiting for application outcome…', 'ScenarioText': &quot;You've applied for a prestigious internship in your field. The waiting period for a response has you feeling incredibly anxious, as you constantly worry about the outcome and how it will affect your future.&quot;}, {'feel_word': 'Anger at university neglect…', 'ScenarioText': &quot;You are leaving a busy class where someone was coughing and stop to use the on-campus hand sanitisers, but none of them are dispensing sanitiser. feelings of frustration are triggered. You reflect on your experience of the COVID-19 pandemic, frustration with the university's negligence turns into anger, feeling that health and safety concerns are being ignored.&quot;}, {'feel_word': 'Anger over lack of recognition…', 'ScenarioText': 'You finish a group assignment where you contributed the most work. You feel frustrated as another student who failed to contribute criticises the assessments quality. Feeling that your efforts are not being respected, you become angry over the lack of recognition and the injustice of the situation.'}, {'feel_word': 'Anger over personal critique…', 'ScenarioText': 'You receive feedback on a piece of personal writing you submitted for a class that critiques not just the work but seemingly your personal views and experiences. You feel misunderstood and invalidated, and anger bubbles up over the perceived attack on your identity and beliefs.'}, {'feel_word': 'Security staff professionalism during drill…', 'ScenarioText': 'In the midst of a fire drill at the university, the composed and efficient coordination displayed by the security staff stands out to you. Their professionalism instils a sense of security, making the drill feel like a well-practiced routine rather than a cause for alarm.'}, {'feel_word': 'Calm beach outing…', 'ScenarioText': 'You just finished a particularly stressful final exam. You and some classmates decide to relax by heading to the beach. The thoughtful gesture and the break from academic pressures allow you to feel a rare moment of calm and appreciation for the supportive people in your life.'}, {'feel_word': 'Personal reflectiong brings calm contentment…', 'ScenarioText': 'You find a quiet moment to reflect on your personal growth since starting University. This reflection brings a sense of calm and contentment, as you acknowledge the complexity of your identity and the many facets that make you unique.'}, {'feel_word': &quot;Reflection on semester's end…&quot;, 'ScenarioText': &quot;You have completed all your exams and assignments for the semester. You take a moment to reflect on your achievements. This period of calm allows you to appreciate your efforts and the knowledge you've gained as you reflect how far you have come since the beginning of your studies.\xa0&quot;}, {'feel_word': 'Exhausted from study, craving sleep….', 'ScenarioText': 'After a stretch of nights of studying for end of semester exams and are exhausted. Lack of sleep has left you so tired that basic low intensity tasks like checking text messages feel like significant effort, you desperately want to sleep.'}, {'feel_word': 'Social exhaustion, craving solitude…', 'ScenarioText': &quot;You have spent weeks interacting with others in a series of group projects, long shifts at work, and social commitments. You find yourself socially exhausted. The constant interaction and need to be 'on' has left you feeling tired, craving solitude.&quot;}, {'feel_word': 'Exhaustion from coursework and role study…', 'ScenarioText': 'You have been balancing coursework and part-time work throughout the busy semester. You reach a point of exhaustion. The constant push to achieve has left you feeling physically and mentally tired, questioning whether the relentless pursuit of success is worth the sacrifice.'}, {'feel_word': 'Successful study group fosters hapiness…', 'ScenarioText': 'You organise a study group for a difficult course, and it turns out to be a huge success\xa0. Valuable insights are contributed, and new friendships are made. The sense of community and shared achievement leaves you feeling genuinely happy.'}, {'feel_word': 'Discovery of passion…', 'ScenarioText': 'You have spent a lot of time self-reflecting and experimenting with different subjects. You have discovered a passion that feels like a true calling. This realisation fills you with happiness\xa0 and a strong sense of identity, as you finally begin to understand where your true interests lie.'}, {'feel_word': 'Higher than expected grade…', 'ScenarioText': 'You receive a mark much higher than expected, significantly boosting your \xa0grade and creating feelings of happiness. This recognition validates your hard work and dedication, boosting your self-esteem and motivating you to continue striving for success.'}, {'feel_word': 'Friend transfers Universities… ', 'ScenarioText': 'Your close friend with whom you spend almost every day with decides to transfer universities. Their impending departure leaves a void in your daily routine and social circle, causing you to feel a deep sense of sadness and loss.'}, {'feel_word': 'Changing academic path…', 'ScenarioText': 'You realise that your chosen field of study is no longer aligning with your evolving interests and values. You develop a profound sense of sadness. This emotional response is rooted in the grief of letting go of an identity you once held close and the uncertainty of what comes next.'}, {'feel_word': 'Publicly presenting research…', 'ScenarioText': &quot;You've been invited to present your research assignment at a student conference. You don’t particularly like public speaking, the thought of which makes you incredibly nervous. You are worried about judgement and potential failure in front of a large audience of peers and academics.&quot;}, {'feel_word': 'Speaking about a controversial topic…', 'ScenarioText': 'You are called on to share your views on a controversial topic. Your class has been in heavy debate and having to speak up starts to make you feel incredibly nervous. The anticipation of the reactions from your peers and the potential change in how they perceive you challenges your sense of identity and belonging within your social circle.'}, {'feel_word': 'Impedning class presentation…', 'ScenarioText': &quot;You're about to give a public class presentation. As you sit through your classmates' presentations, you begin to think your presentation will be of inferior quality, and you start to feel nervous, suddenly, your name is called – it’s your turn to present.&quot;}, {'feel_word': 'Disregarded shared living space rules…', 'ScenarioText': 'Your housemate continuously disregards shared living space rules, leaving messes and being inconsiderate of noise levels. Despite repeated discussions, nothing changes, leading to a growing agitation and strain on the roommate relationship.'}, {'feel_word': 'Friend recieves higher mark…', 'ScenarioText': 'You’ve just received your assessment marks and your friend received a much higher mark then you, despite them suggesting they barely worked on it. You worked hard on your assignment, and you begin to feel feelings of agitation.'}, {'feel_word': 'Routine walk to class on a pleasant day…', 'ScenarioText': &quot;You're walking to class on a regular weekday. The weather is pleasant, and the campus is lively with students going about their day. There's nothing pressing on your mind, and you're simply following your daily routine.&quot;}, {'feel_word': 'Routine walk, pleasant day on campus…', 'ScenarioText': &quot;You're walking to class on a regular weekday. The weather is pleasant, and the campus is lively with students going about their day. There's nothing pressing on your mind, and you're simply following your daily routine.&quot;}, {'feel_word': 'Casual meeting on campus…', 'ScenarioText': &quot;You're sitting on a park bench on campus, eating a meal you've had many times before. You observe the hustle and bustle around you but are mostly focused on your food and planning the rest of your day.&quot;}, {'feel_word': 'Attentive but disengaged in lecture…', 'ScenarioText': &quot;You're in a lecture hall, listening to your professor present on a topic of neither interest or dis-interest to you . It's informative and part of your course requirements, so you're attentive but not particularly engaged or disengaged.&quot;}, {'feel_word': 'Routine email check…', 'ScenarioText': &quot;You take a moment to check your university email account, finding a mix of administrative announcements, REP experiments, and a reminder about an upcoming assignment due date. It's the usual inbox clutter that you quickly sort through, responding to what's necessary.&quot;}, {'feel_word': 'Casual chat about weekend plans…', 'ScenarioText': &quot;Between classes, you have a casual conversation with a classmate about plans for the weekend. It's a light, friendly exchange that's pleasant but routine, lacking any significant emotional weight.&quot;}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="feel_word.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Scenarios"/>
+    <Routine name="Mapping"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
